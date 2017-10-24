@@ -9,7 +9,7 @@
 <body>
 <!--<h1>Icons, WPs, and logos of distros</h1><br />-->
 <p align=justify>
-<b>EN:<font color=blue></font></b><br />
+<b>EN:<font color=#FFFF00></font></b><br />
 Icons, logos and wallpapers of GNU/Linux, BSDs and others free and open systems.
 </p>
 <p align=justify>
