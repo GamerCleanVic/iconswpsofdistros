@@ -7,7 +7,7 @@
 <!--<title></title>-->
 </head>
 <body>
-<p align=justify><font size="14">Para atender toas as idades não poste nenhum adulto</font></p><br /><br />
+<p align=justify><font size=14><strong>Para atender toas as idades não poste nenhum adulto</strong></font></p><br /><br />
 
 <!--<h1>Icons, WPs, and logos of distros</h1><br />-->
 <p align=justify>
