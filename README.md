@@ -8,18 +8,18 @@
 </head>
 <body>
 <!--<h1>Icons, WPs, and logos of distros</h1><br />-->
-- ![#41719a]<p align=justify>
-<b>EN:<font color=#FFFF00></font></b><br />
+<p align=justify>
+<font color=blue><b>EN:</b></font><br />
 Icons, logos and wallpapers of GNU/Linux, BSDs and others free and open systems.
-</p>`#41719a`
+</p>
 
-- ![#4ca95b]<p align=justify>
-<b>PT-BR:<font color=green></font></b><br />
+<p align=justify>
+<font color=green><b>PT-BR:</b></font><br />
 Ícones, logos e papéis de pade de sistemas GNU/Linux, BSDs e outros livres e abertos.
 </p>`#4ca95b`
 
-- ![#8b0000]<p align=justify>
-<b>ES:<font color=red></font></b><br />
+<p align=justify>
+<font color=red><b>ES:</b></font><br />
 Iconos, logotipos y fondos de pantalla de GNU/Linux, BSD y otros sistemas gratuitos y de código abierto.
 </p>`#8b0000`
 </body>
