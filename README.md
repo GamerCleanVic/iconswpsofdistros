@@ -7,7 +7,7 @@
 <!--<title></title>-->
 </head>
 <body>
-<h1>Icons, WPs, and logos of distros</h1><br />
+<!--<h1>Icons, WPs, and logos of distros</h1><br />-->
 <p>
 <b>EN</b><br />
 Icons, logos and wallpapers of GNU/Linux, BSDs and others free and open systems.
