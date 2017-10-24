@@ -7,6 +7,8 @@
 <!--<title></title>-->
 </head>
 <body>
+<p align=justify><font size="14">Para atender toas as idades não poste nenhum adulto</font></p><br /><br />
+
 <!--<h1>Icons, WPs, and logos of distros</h1><br />-->
 <p align=justify>
 <font color=blue><b>EN:</b></font><br />
