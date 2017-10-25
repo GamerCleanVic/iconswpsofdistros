@@ -24,6 +24,6 @@ Icons, logos and wallpapers of GNU/Linux, BSDs and others free and open systems.
 <font color=red><b>ES:</b></font><br />
 Iconos, logotipos y fondos de pantalla de GNU/Linux, BSD y otros sistemas gratuitos y de código abierto.
 </p><br /><br />
-<a href="acessolinux.com">Clique aqui e acesse o site projeto Acesso Linux</a>
+<a href="https://acessolinux.com/regras-contrato-sobre/">Clique aqui e acesse o site projeto Acesso Linux</a>
 </body>
 </html>
