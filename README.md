@@ -26,8 +26,8 @@ Iconos, logotipos y fondos de pantalla de GNU/Linux, BSD y otros sistemas gratui
 </p><br /><br />
 
 
-<a href="https://acessolinux.com/regras-contrato-sobre/"><img src="https://lh5.googleusercontent.com/gEYWxWrnzxb5XGLM8QXT-9tCwwF5OIdJo0UcIK2XgipmoTr8L4pX2TQeeqjtjq1TraPWPqdRsO1XlJ8=w1280-h604"></a></p><br /><br />
+<a href="https://acessolinux.com/regras-contrato-sobre/"><img src="https://goo.gl/ifuLbE"></a></p><br /><br />
 
-<a href="https://gamercleanvic.github.io/iconswpsofdistros/"><img src="https://lh4.googleusercontent.com/UxP-IttQ9J-0W4eEYLboSlymiXpZfJN5SNjI-4ChIqhNuzq156yMlwHMQjCYqgSTcEUNZsNn-kc6CrM=w1280-h604"></a>
+<a href="https://gamercleanvic.github.io/iconswpsofdistros/"><img src="https://goo.gl/BXkDbT"></a>
 </body>
 </html>
