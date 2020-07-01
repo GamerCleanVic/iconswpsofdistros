@@ -1,45 +1,661 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>Arch Linux</title>
-  
+ <!DOCTYPE html>
+<html lang="en,pt-br,es">
+   <head>
+      <title>ARCH LINUX</title>
+<link rel="icon" href="LPperfilYTx800.png" type="image/png" sizes="16x16">
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Função Troca BG Site -->  	 
+	   
 <style>
-body{
-background-color: #333333;
-color: #cccccc;
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: justify;
+  background-color: #333333;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #cccccc;
 }
-a{
-color: lightblue; 
+.button1 { background-color: #ace600; font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: black;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px darkgreen;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+ }
+.button1:hover{
+    border-color:#ace600;
+    background-color: #00b386;
+    color: #ace600;
+    text-shadow: 0 0 3px black;
 }
-a:visited{
-color: lightgreen;
+/* selected link */
+.button1:active {
+   background-color: #0059b3;
+   border-color:#cccccc;
+   color: #cccccc;
+   text-shadow: 0 0 3px black;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
 </style>
+
+<style>
+* {box-sizing: border-box;}
+	
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif	  
+}
+	
+h3 {
+  color: #cccccc;
+}
+	
+#navbar {
+  overflow: hidden;
+  background-color: #0066cc;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+	
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #0000b3;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: lightyellow;
+  color: #0066cc;
+}
+
+#navbar-right {
+  font-size: 35px;
+  font-weight: bold;
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}	
+</style>	
+
+<style>	
+body {
+  background-color: #333333;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
   
-</head>
-<body>
+.bodylight { 
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.bodylight:hover{
+    border-color:#e6b800;
+    background-color: #f1dc86;
+    color: green;
+}
+/* visited link */
+.bodylight:visited {
+  background-color: #993399;
+  color: white;
+}
+/* selected link */
+.bodylight:active {
+  background-color: #f1dc86;
+  color: #806600;
+}
+ 
+<!--.button1 { background-color: #d55442; font-weight: bold; align: justify;/*Verde*/
+/* border: 1px solid #000; */
+color: white;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.button1:hover{
+    border-color:#e6b800;
+} -->
+
+.youtube { background-color: #dc2929; font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: white;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.youtube:hover{
+    border-color:#e6b800;
+}
+
+.twitch { background-color: #6441a5; font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: white;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.twitch:hover{
+    border-color:#e6b800;
+}
+
+
+.mixer { background: conic-gradient(#00ccff, blue, #00ccff, blue, #00ccff, blue, #00ccff); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: white;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.mixer:hover{
+    border-color:#e6b800;
+}
+
+.faceb { background-color: #4267b2; font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: white;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.faceb:hover{
+    border-color:#e6b800;
+}
+
+.insta { background-image: linear-gradient(to right, #e9e945, #cd6700, #cc00ff); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: white;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.insta:hover{
+    border-color:#e6b800;
+}
+
+
+.picpay { background-image: linear-gradient(to right, #268c26,#43cc43, #43cc43, #43cc43, #43cc43, #268c26); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+color: white;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.picpay:hover{
+    border-color:#e6b800;
+}
+
+.twitter { background-image: linear-gradient(to right, #227cfc, #227cfc, #227cfc); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: white;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.twitter:hover{
+    border-color:#e6b800;
+}
+ 
+.streamlabs { background-image: linear-gradient(to right, #1bb191, #1bb191); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: #012316;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #ffffff;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.streamlabs:hover{
+    border-color:#e6b800;
+}
+ 
+.periscope { background-image: linear-gradient(to right, #1c7fa7, #ffffff); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: #ff3333;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #d9d9d9;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.periscope:hover{
+    border-color:#e6b800;
+}
+ 
+.nimotv { background-image: linear-gradient(to right, #1200ff, #1200ff, #ac229f, #ac229f); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: #ffff38;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.nimotv:hover{
+    border-color:#e6b800;
+}
+	
+.telegram { background-image: linear-gradient(to right, #3366ff, #003c97, #003c97, #3366ff); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: white;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.telegram:hover{
+    border-color: #e6b800;
+    background-color: #3366ff;
+    color: #cccccc;
+}
+/* selected link */
+.telegram:active {
+  background-image: linear-gradient(to right, #cccccc, #cccccc); font-weight: bold;
+  color: #3366ff;
+}
+	
+.dlive { background-image: linear-gradient(to right, #ffe100, #ffe100); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: #000000;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.dlive:hover{
+    border-color: #000000;
+    background-color: #000000;
+    color: #807100;
+}
+/* selected link */
+.dlive:active {
+  background-image: linear-gradient(to right, #000000, #000000); font-weight: bold;
+  color: #ffe100;
+}
+
+.discord { background-image: linear-gradient(to right, #6666b2, #6666b2); font-weight: bold; /*Verde*/
+/* border: 1px solid #000; */
+target-name:new;
+target-new:tab;
+color: white;
+font-weight: bold;
+padding: 7px 19px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 0 3px #000000;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px rgba(0,0,0,0.5);
+margin:0 1em 0 0;
+ }
+.discord:hover{
+    border-color:#e6b800;
+}
+	
+</style>
 <link rel="shotcut icon" href="meuicon.png" type="image/png"/>
-<h1 id=archlinux>Arch Linux</h1><br /><br />
-<p align="justify"><font color="#ffffb3" size="4"><b>Clique nas imagens para abrir a nova guia de download, após abrir clique no botão Download acima à direita:</b></font></p><br />
-<a href="index.html#home" title="Página Inicial" align="left"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/pasta_icon2.png" align="bottom"></a><font>...</font></p><br />
-<!-- Imagem hiperlink -->
-  
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/LinuxPaisagem.svg" target="">Baixar Editável .SVG</a></p><br clear="all" />
-  
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand1280x800Claro.png" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand1280x800Claro.png" alt="Papel de parede ArchLand1280x800Claro" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
-  
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand720.png" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand720.png" alt="Papel de parede ArchLand720Claro" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
-  
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand4kWideDark.png" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand4kWideDark.png" alt="Papel de parede ArchLand4kWideDark" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
-  
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/WP_ArchBlue01.jpeg" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/WP_ArchBlue01_720px.jpeg" alt="Papel de parede WP_ArchBlue01" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
+</head>
 
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchRedBlue.png" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/ArchRedBlue720x405.png" alt="Papel de parede ArchRedBlue3840x2160" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
+<body id="home">
+<br clear="all"><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" /><br clear="all" />	
+<!-- IMAGEN TOP -->
+<p style="font-size: 14px;"><form align="justify"  target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/LinuxPaisagem.svg" type="submit">BAIXAR EDITÁVEL .SVG</button></form></p><br />
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand1280x800Claro.png" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">ArchLand1280x800Claro</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand1280x800Claro.png" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
 
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/wp_ArchBlackGrey3840x2204.jpeg" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/wp_ArchBlackGrey720x413.jpeg" alt="Papel de parede wp_ArchBlackGrey3840x2204" height="360" width="720" align=left /><br clear="all"/><br clear="all"/>
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand720.png" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">ArchLand720</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand720.png" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
 
-<p><a href="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/wp_ArchBlueBlack3840x2006.jpeg" target="_blank" align="justify"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/wp_ArchBlueBlack720x414.jpeg" alt="Papel de parede wp_ArchBlueBlack3840x2006" height="360" width="720" align=left /></a></p><br clear="all"/><br clear="all"/>
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/master/Arch%20Linux/ArchLand4kWideDark.png" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">ArchLand4kWideDark</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchLand4kWideDark.png" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
+
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/WP_ArchBlue01_720px.jpeg" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">WP_ArchBlue01</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/WP_ArchBlue01.jpeg" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
+
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/ArchRedBlue720x405.png" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">ArchRedBlue3840x2160</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/ArchRedBlue.png" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
+
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/wp_ArchBlackGrey720x413.jpeg" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">wp_ArchBlackGrey3840x2204</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/wp_ArchBlackGrey3840x2204.jpeg" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
+
+<div class="container" align="center">
+  <img alt="Tecnologia" src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/wp_ArchBlueBlack720x414.jpeg" style="width: 720px;" />
+  <div class="content" style="text-align: center;">
+    <h1 style="font-size: 18px;">wp_ArchBlueBlack3840x2006</h1>
+    <p style="font-size: 14px;"><form align="center" target="_blank"><button class="button1" formaction="https://github.com/GamerCleanVic/iconswpsofdistros/blob/master/Arch%20Linux/wp_ArchBlueBlack3840x2006.jpeg" type="submit">BAIXAR</button></form></p>
+  </div>
+</div><br clear="all" />
+	
+<div id="navbar">
+  <a href="index.html#home">INÍCIO DO SITE</a>
+  <div id="navbar-right">
+    <a href="archlinux.html#home" class="active">TOPO DA PÁGINA</a>
+    <a href="https://linuxpovao.blogspot.com/p/redes-sociais.html" target="_blank">REDES SOCIAIS</a>
+  </div>
+</div>
+ 
+<!-- BOTÕES DOAR -->
+
+<div style="margin-top:15px;padding:15px 15px 2500px;font-size:14px">
+
+<!-- BOTÃO E TEXTO NOTÍCIA -->
+<!-- #b5e3bd (Verde claro),  Roxo (#9d69d4), Salmão (#ffeed4), Lilás (#e6e6ff), Rosa (#ffdcfb), Azul claro (#E6E6FA) -->	
+<!-- BOTÕES DOAR -->
+
+
+<h1 align="center" id="inicio" ><font color="#d9d9d9"><b>ESSAS SÃO NOSSAS REDES SOCIAIS, CLIQUE E INSCREVA-SE À VONTADE</b></font></h1>
+<p align="center">                       
+<table align="center">
+<tr>
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://bit.ly/2L3J2yG" class="youtube">YOUTUBE</button>
+</form><text>  </text></td>
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://twitch.tv/linuxpovao" class="twitch">TWITCH</button>
+</form><text>  </text></td>
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://mixer.com/LinuxPovaoTV" class="mixer">MIXER</button>
+</form><text>  </text></td>
+<td><!-- BOTÕES DOAR --><form target="_blank" align="justify"><button type="submit" formaction="https://www.facebook.com/Linux-Pov%C3%A3o-Not%C3%ADcias-e-Cursos-103150034775897" class="faceb">FACEBOOK</button>
+</form><text>  </text></td>
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://www.instagram.com/linuxpovaonews/" class="insta">INSTAGRAM</button>
+</form><text>  </text></td>
+<td><!-- BOTÕES DOAR --><form target="_blank" align="justify"><button type="submit" formaction="https://www.facebook.com/groups/356267648687399/" class="faceb">FACE GRUPO</button>
+</form><text>  </text></td>
+</tr>
+</table>
+ 
+</p>
+
+
+<br />
+<p align="center">                       
+<table align="center">
+<tr>
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://twitter.com/LinuxPovaoTV" class="twitter">TWITTER</button>
+</form><text>  </text></td>
+
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://www.periscope.tv/LinuxPovaoTV" class="periscope">PERISCOPE</button>
+</form><text>  </text></td>
+
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://www.nimo.tv/live/6055270366" class="nimotv">NIMO TV</button>
+</form><text>  </text></td>
+	
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://t.me/LinuxPovaoCanal" class="telegram">TELEGRAM</button>
+</form><text>  </text></td>
+	
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://dlive.tv/LinuxPovaoTV" class="dlive">DLIVE</button>
+</form><text>  </text></td>
+
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://discord.gg/mtdnk9u" class="discord">DISCORD</button>
+</form></td>
+	
+</tr>
+</table>
+ 
+</p><br />
+
+<!--
+<br />
+<p align="center">
+<img src="LPcapaYTx720gg.png" width="720" alt="Linux Povão TV Capa">
+</p> -->
+
+<br />
+<h3 align="center" color="#cccccc">ARQUIVOS GH-PAGES DO REPOSITÓRIO EM LICENÇA GPL3 PARA SER UTILIZADO DE ACORDO COM ESTA LICENÇA</h3></br>
+<table  align="center">
+<tr align="center"> 
+<td><!-- BOTÕES DOAR -->
+<form target="_blank" align="justify"><button type="submit" formaction="https://github.com/GamerCleanVic/redessociais/tree/gh-pages" class="dlive">LINK DO REPOSITÓRIO</button>
+</form></td>
+</tr></table>
+	
+</div> 
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Texto2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </body>
 </html>
