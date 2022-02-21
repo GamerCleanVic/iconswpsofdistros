@@ -25,8 +25,8 @@ Iconos, logotipos y fondos de pantalla de GNU/Linux, BSD y otros sistemas gratui
 </p><br /><br />
 
 
-<a href="https://linuxpovao.blogspot.com.br/" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/Bot%C3%A3oAL.png"></a></p><br /><br />
+<a href="https://www.twitch.tv/jottalpb" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/BTacesseLive.png"></a></p><br /><br />
 
-<a href="https://gamercleanvic.github.io/iconswpsofdistros/" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/DistrosImagens.png"></a>
+<a href="https://jottalpb.blogspot.com/p/redes-sociais.html" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/BTacesseoSite.png"></a>
 </body>
 </html>
