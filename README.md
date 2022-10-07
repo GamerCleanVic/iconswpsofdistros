@@ -24,9 +24,6 @@ Icons, logos and wallpapers of GNU/Linux, BSDs and others free and open systems.
 Iconos, logotipos y fondos de pantalla de GNU/Linux, BSD y otros sistemas gratuitos y de código abierto.
 </p><br /><br />
 
-
-<a href="https://www.twitch.tv/jottalpb" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/BTacesseLive.png"></a></p><br /><br />
-
 <a href="https://gamercleanvic.github.io/iconswpsofdistros/" target="_blank"><img src="https://raw.githubusercontent.com/GamerCleanVic/iconswpsofdistros/gh-pages/Imagens/BTacesseoSite.png"></a>
 </body>
 </html>
